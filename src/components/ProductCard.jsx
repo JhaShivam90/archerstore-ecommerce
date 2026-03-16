@@ -7,7 +7,7 @@ export default function ProductCard({ product }) {
   return (
     <div className="card product-card">
       <img
-        src={`https://source.unsplash.com/300x200/?${product.name}`}
+        src={product.image}
         alt={product.name}
         className="product-img"
       />
